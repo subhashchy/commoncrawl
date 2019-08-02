@@ -36,7 +36,7 @@ commoncrawl.getIndex().then((data) => {
 });
 ```
 
-Method - searchURL - to search and return list of snapshot matches for the given URL : 
+Method - searchURL - to search and return list of matches for the given URL : 
 ```js
 commoncrawl.searchURL('example.com')
     .then((data) => {
