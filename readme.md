@@ -1,4 +1,4 @@
-A Node.js wrapper for the commoncrawl.org index
+A Node.js client for the commoncrawl.org index
 
 ### Install
 
