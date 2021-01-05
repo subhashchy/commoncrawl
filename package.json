@@ -10,7 +10,7 @@
   "license": "ISC",
   "description": "NodeJs Client for CommonCrawl Index API ",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "querystring": "^0.2.0"
   },
   "homepage": "https://rankz.io/tools/check-domain-authority"
