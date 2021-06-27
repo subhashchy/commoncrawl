@@ -29,7 +29,7 @@ var commoncrawl = {
 
         let indexid = options.index || 'CC-MAIN-2019-30-index'
 
-        let parmas = {
+        let params = {
 
             url: url,
             from: options.from,
@@ -43,12 +43,12 @@ var commoncrawl = {
             output: 'json'
         }
 
-        console.log(parmas)
+        console.log(params)
 
         return new Promise((resolve, reject) => {
 
             index.get(indexid, {
-                params: parmas
+                params: params
             }).then(function (res) {
 
                 if (options.showNumPages){
